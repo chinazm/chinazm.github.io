@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" width="200" height="50">
+    <defs>
+        <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#00d4ff"/>
+            <stop offset="100%" style="stop-color:#0080ff"/>
+        </linearGradient>
+    </defs>
+    <!-- Logo mark: stylized "A" with diamond -->
+    <polygon points="25,5 10,40 18,40 25,22 32,40 40,40" fill="url(#grad)"/>
+    <rect x="14" y="30" width="22" height="4" rx="2" fill="url(#grad)" opacity="0.5"/>
+    <!-- Text -->
+    <text x="50" y="32" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="url(#grad)">Abacus</text>
+    <text x="130" y="32" font-family="Arial, sans-serif" font-size="22" font-weight="300" fill="#a0a0b8">Surgical</text>
+</svg>

@@ -55,3 +55,16 @@ document.querySelectorAll('.about-card, .tech-card, .indication-card, .contact-i
     el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
     observer.observe(el);
 });
+
+// Contact form handling
+const form = document.querySelector('.contact-form');
+if (form) {
+    form.addEventListener('submit', function(e) {
+        const btn = document.getElementById('submit-btn');
+        if (btn) {
+            btn.textContent = 'Sending...';
+            btn.style.opacity = '0.7';
+            btn.style.pointerEvents = 'none';
+        }
+    });
+}
